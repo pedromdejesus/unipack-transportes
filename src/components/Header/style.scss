@@ -1,0 +1,7 @@
+@import 'bootstrap';
+
+.header-wrap {
+	@extend .container-fluid, .bg-success;
+
+	height: 15%;
+}
