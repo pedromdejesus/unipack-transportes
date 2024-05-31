@@ -82,7 +82,7 @@ const Form: React.FC = () => {
 			</div>
 			<div className="row">
 				<div className="col-6">
-					<button type="submit" className="btn btn-danger color">
+					<button type="submit" className="btn color">
 						<p>Enviar</p>
 					</button>
 				</div>

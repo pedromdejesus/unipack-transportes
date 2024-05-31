@@ -9,15 +9,14 @@ const Parallax: React.FC = () => {
 	}
 
 	return (
-		<div className="parallax">
-			<p
-				className="layout d-flex justify-content-end align-items-center"
-			>
-				<button onClick={() => nav('contact')} type="submit" className="btn btn-danger color">
-					<p>FAÇA UM ORÇAMENTO</p>
-				</button>
-			</p>
-			<div className="bg-parallax" />
+		<div className="bg-parallax">
+			<div className="parallax">
+				<p className="layout d-flex justify-content-end align-items-center">
+					<button onClick={() => nav('contact')} className="btn">
+						<p>FAÇA UM ORÇAMENTO</p>
+					</button>
+				</p>
+			</div>
 		</div>
 	);
 };

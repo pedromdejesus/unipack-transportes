@@ -1,22 +1,30 @@
 @import '../../styles/colors';
 
-.parallax {
-	background-image: url("../../assets/images/parallax.png");
+.bg-parallax, .parallax, .bg-parallax .layout {
 	height: 300px;
+}
+
+.bg-parallax {
+	background-image: url("../../assets/images/parallax.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.parallax button {
+.bg-parallax button {
 	width: 750px;
 	height: 75px;
 	background-color: $color-secondary;
 }
 
-.parallax .layout {
-	height: 300px;
+.bg-parallax button:hover {
+	background-color: firebrick;
+}
+
+.parallax {
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.25);
 }
 
 button p {

@@ -3,6 +3,13 @@ import carouselImg1 from '../../assets/images/carousel-1.jpeg';
 import carouselImg2 from '../../assets/images/carousel-2.png';
 
 const Carousel: React.FC = () => {
+	function nav(id: string) {
+		const element = document.getElementById(id);
+		if(element) {
+			window.scrollTo(0, element.offsetTop - 160);
+		}
+	}
+
 	return (
 		<div>
 			<div id="carouselExample" className="carousel slide">
@@ -21,7 +28,7 @@ const Carousel: React.FC = () => {
 									PARA CADA NECESSIDADE, UMA SOLUÇÃO DE
 									QUALIDADE
 								</p>
-								<button type="submit" className="btn">
+								<button onClick={() => nav('services')} className="btn">
 									<p>VEJA NOSSOS SERVIÇOS</p>
 								</button>
 							</div>
