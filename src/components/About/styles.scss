@@ -6,3 +6,7 @@
 .about .row p:last-child {
 	padding: 0;
 }
+
+.about .col-12 .row .col-3 div, .about .col-12 .row .col-3 .aboutImg {
+	height: 100%;
+}

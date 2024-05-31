@@ -1,16 +1,23 @@
 import './styles.scss'
 
 const Parallax: React.FC = () => {
+	function nav(id: string) {
+		const element = document.getElementById(id);
+		if(element) {
+			window.scrollTo(0, element.offsetTop - 160);
+		}
+	}
+
 	return (
 		<div className="parallax">
-			<a
+			<p
 				className="layout d-flex justify-content-end align-items-center"
-				href="#contact"
 			>
-				<button type="submit" className="btn btn-danger color">
+				<button onClick={() => nav('contact')} type="submit" className="btn btn-danger color">
 					<p>FAÇA UM ORÇAMENTO</p>
 				</button>
-			</a>
+			</p>
+			<div className="bg-parallax" />
 		</div>
 	);
 };

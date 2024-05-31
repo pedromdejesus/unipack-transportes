@@ -1,10 +1,10 @@
 import './style.scss';
 
-interface IProps {
+interface ITitleProps {
 	title: string;
 }
 
-const SectionTitle: React.FC<IProps> = ({title}:IProps) => {
+const SectionTitle: React.FC<ITitleProps> = ({title}:ITitleProps) => {
 	return (
 		<>
 			<p className="title">{title}</p>

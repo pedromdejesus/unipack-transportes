@@ -1,56 +1,93 @@
 import './styles.scss'
+import carouselImg1 from '../../assets/images/carousel-1.jpeg';
+import carouselImg2 from '../../assets/images/carousel-2.png';
 
 const Carousel: React.FC = () => {
 	return (
 		<div>
-			<div id="carouselExample" className="carousel slide bg-carousel">
-				<div className="carousel-inner">
-					<div className="carousel-item active">
-						<img
-							src="https://images.unsplash.com/photo-1579033461380-adb47c3eb938?fit=crop&w=1964&q=100"
-							className="d-block w-100 carousel-img"
-							alt="Slide 1"
-						/>
+			<div id="carouselExample" className="carousel slide">
+				<div className="bg-carousel">
+					<div className="carousel-inner">
+						<div className="carousel-item active">
+							<img
+								src={carouselImg1}
+								className="d-block w-100 carousel-img"
+								alt="Slide 1"
+							/>
+							<div className="bg-carousel-img" />
+							<div className="card-carousel carousel-caption d-none d-md-block">
+								<h5>UNIPACK TRANSPORTES</h5>
+								<p>
+									PARA CADA NECESSIDADE, UMA SOLUÇÃO DE
+									QUALIDADE
+								</p>
+								<button type="submit" className="btn">
+									<p>VEJA NOSSOS SERVIÇOS</p>
+								</button>
+							</div>
+						</div>
+						<div className="carousel-item">
+							<img
+								src={carouselImg2}
+								className="d-block w-100 carousel-img"
+								alt="Slide 2"
+							/>
+							<div className="bg-carousel-img" />
+							<div className="card-carousel carousel-caption d-none d-md-block">
+								<h5>UNIPACK TRANSPORTES</h5>
+								<p>
+									PARA CADA NECESSIDADE, UMA SOLUÇÃO DE
+									QUALIDADE
+								</p>
+								<button type="submit" className="btn">
+									<p>VEJA NOSSOS SERVIÇOS</p>
+								</button>
+							</div>
+						</div>
+						<div className="carousel-item">
+							<img
+								src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100"
+								className="d-block w-100 carousel-img"
+								alt="Slide 3"
+							/>
+							<div className="bg-carousel-img" />
+							<div className="card-carousel carousel-caption d-none d-md-block">
+								<h5>UNIPACK TRANSPORTES</h5>
+								<p>
+									PARA CADA NECESSIDADE, UMA SOLUÇÃO DE
+									QUALIDADE
+								</p>
+								<button type="submit" className="btn">
+									<p>VEJA NOSSOS SERVIÇOS</p>
+								</button>
+							</div>
+						</div>
 					</div>
-					<div className="carousel-item">
-						<img
-							src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100"
-							className="d-block w-100 carousel-img"
-							alt="Slide 2"
+					<button
+						className="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExample"
+						data-bs-slide="prev"
+					>
+						<span
+							className="carousel-control-prev-icon"
+							aria-hidden="true"
 						/>
-					</div>
-					<div className="carousel-item">
-						<img
-							src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100"
-							className="d-block w-100 carousel-img"
-							alt="Slide 3"
+						<span className="visually-hidden">Previous</span>
+					</button>
+					<button
+						className="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExample"
+						data-bs-slide="next"
+					>
+						<span
+							className="carousel-control-next-icon"
+							aria-hidden="true"
 						/>
-					</div>
+						<span className="visually-hidden">Next</span>
+					</button>
 				</div>
-				<button
-					className="carousel-control-prev"
-					type="button"
-					data-bs-target="#carouselExample"
-					data-bs-slide="prev"
-				>
-					<span
-						className="carousel-control-prev-icon"
-						aria-hidden="true"
-					/>
-					<span className="visually-hidden">Previous</span>
-				</button>
-				<button
-					className="carousel-control-next"
-					type="button"
-					data-bs-target="#carouselExample"
-					data-bs-slide="next"
-				>
-					<span
-						className="carousel-control-next-icon"
-						aria-hidden="true"
-					/>
-					<span className="visually-hidden">Next</span>
-				</button>
 			</div>
 		</div>
 	);

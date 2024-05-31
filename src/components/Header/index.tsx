@@ -33,7 +33,7 @@ const Location: React.FC = () => {
 									onClick={() => window.scrollTo(0, 0)}
 								>
 									<div>
-										<img src={logo} alt="Logotipo" />
+										<img src={logo} alt="Logotipo da Unipack Transportes" />
 									</div>
 								</div>
 								<div

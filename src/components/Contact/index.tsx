@@ -23,16 +23,14 @@ const Contact: React.FC = () => {
 									<div className="card">
 										<div className="card-body d-flex justify-content-center align-items-center">
 											<p>
-												This is some text within a card
-												body.
+												{'(13) 3232-2330'}
 											</p>
 										</div>
 									</div>
 									<div className="card">
 										<div className="card-body d-flex justify-content-center align-items-center">
 											<p>
-												This is some text within a card
-												body.
+												{'(13) 99753-2220'}
 											</p>
 										</div>
 									</div>
@@ -42,10 +40,24 @@ const Contact: React.FC = () => {
 										Horário de Atendimento
 									</h1>
 									<div className="card hours">
-										<div className="card-body d-flex justify-content-center align-items-center">
+										<div className="card-body .">
 											<p>
-												This is some text within a card
-												body.
+												{'Seg a Sex - 08:00h/18:00h'}
+											</p>
+											<p>
+												{'Seg a Sex - 08:00h/18:00h'}
+											</p>
+											<p>
+												{'Seg a Sex - 08:00h/18:00h'}
+											</p>
+											<p>
+												{'Seg a Sex - 08:00h/18:00h'}
+											</p>
+											<p>
+												{'Seg a Sex - 08:00h/18:00h'}
+											</p>
+											<p>
+												{'Seg a Sex - 08:00h/18:00h'}
 											</p>
 										</div>
 									</div>
@@ -64,8 +76,7 @@ const Contact: React.FC = () => {
 									<div className="card">
 										<div className="card-body d-flex justify-content-center align-items-center">
 											<p>
-												This is some text within a card
-												body.
+												{'operacional@unipacktransportes.com.br'}
 											</p>
 										</div>
 									</div>

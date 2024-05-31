@@ -12,6 +12,11 @@
 	margin: 15px;
 }
 
+.customers .imageCard img {
+	width: 75%;
+	height: auto;
+}
+
 .customers .card-body p {
 	color: $color-primary;
 	font-weight: bold;

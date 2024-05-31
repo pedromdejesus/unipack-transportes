@@ -1,3 +1,5 @@
+@import '../../styles/colors';
+
 .parallax {
 	background-image: url("../../assets/images/parallax.png");
 	height: 300px;
@@ -10,13 +12,15 @@
 .parallax button {
 	width: 750px;
 	height: 75px;
+	background-color: $color-secondary;
 }
 
 .parallax .layout {
 	height: 300px;
 }
 
-button P {
+button p {
 	font-size: 26px;
 	font-weight: bold;
+	color: #FFFFFF;
 }

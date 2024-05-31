@@ -1,10 +1,13 @@
 import './styles.scss'
 import Title from '../Title';
+import aboutImg1 from '../../assets/images/about-1.jpeg'
+import aboutImg2 from '../../assets/images/about-2.jpeg'
+import aboutImg3 from '../../assets/images/about-3.jpeg'
 
 const About: React.FC = () => {
 	return (
 		<div className="layout">
-			<div id='about' className="row about">
+			<div id="about" className="row about">
 				<div className="col-12">
 					<Title title="Sobre" />
 					<div className="row">
@@ -27,6 +30,24 @@ const About: React.FC = () => {
 								particularidades de cada um.
 							</p>
 						</div>
+						<div className="col-3">
+							<div>
+								<img
+									className="aboutImg"
+									src={aboutImg1}
+									alt="Imagem ilustrativa de guindaste levantando um container."
+								/>
+							</div>
+						</div>
+						<div className="col-3">
+							<div>
+								<img
+									className="aboutImg"
+									src={aboutImg2}
+									alt="Imagem ilustrativa de caminhão sendo abastecido com container."
+								/>
+							</div>
+						</div>
 					</div>
 					<div className="row">
 						<div className="col-3">
@@ -40,7 +61,15 @@ const About: React.FC = () => {
 							</p>
 							<p>Honrar o compromisso. </p>
 						</div>
-						<div className="col-3" />
+						<div className="col-3">
+							<div>
+								<img
+									className="aboutImg"
+									src={aboutImg3}
+									alt="Imagem ilustrativa de pessoa"
+								/>
+							</div>
+						</div>
 						<div className="col-6">
 							<h1 className="sub-title">Objetivos</h1>
 							<p>
