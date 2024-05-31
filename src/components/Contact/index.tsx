@@ -40,24 +40,21 @@ const Contact: React.FC = () => {
 										Horário de Atendimento
 									</h1>
 									<div className="card hours">
-										<div className="card-body .">
+										<div className="card-body">
 											<p>
-												{'Seg a Sex - 08:00h/18:00h'}
+												{'Seg - 08:00h/18:00h'}
 											</p>
 											<p>
-												{'Seg a Sex - 08:00h/18:00h'}
+												{'Ter - 08:00h/18:00h'}
 											</p>
 											<p>
-												{'Seg a Sex - 08:00h/18:00h'}
+												{'Qua - 08:00h/18:00h'}
 											</p>
 											<p>
-												{'Seg a Sex - 08:00h/18:00h'}
+												{'Qui - 08:00h/18:00h'}
 											</p>
 											<p>
-												{'Seg a Sex - 08:00h/18:00h'}
-											</p>
-											<p>
-												{'Seg a Sex - 08:00h/18:00h'}
+												{'Sex - 08:00h/18:00h'}
 											</p>
 										</div>
 									</div>

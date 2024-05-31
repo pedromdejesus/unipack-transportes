@@ -5,16 +5,28 @@
 }
 
 .contact .card {
-	height: 100px;
+	height: 135px;
 	border: 0;
 	margin-bottom: 30px;
 	background-color: $background-secondary;
 }
 
 .contact .hours {
-	height: 230px;
+	height: 300px;
+}
+
+.card-body {
+	margin: auto;
 }
 
 .card-body p {
 	margin: 0;
+}
+
+.hours .card-body p:first-child {
+	padding-top: 25px;
+}
+
+.hours .card-body p {
+	padding-top: 5px;
 }
