@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
 										</div>
 									</div>
 								</div>
-								<div className="col-6">
+								<div className="col-12">
 									<h1 className="sub-title">
 										Trabalhe Conosco
 									</h1>
