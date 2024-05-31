@@ -1,0 +1,20 @@
+@import '../../styles/colors';
+
+.contact .col-12 .row {
+	margin-bottom: 30px;
+}
+
+.contact .card {
+	height: 100px;
+	border: 0;
+	margin-bottom: 30px;
+	background-color: $background-secondary;
+}
+
+.contact .hours {
+	height: 230px;
+}
+
+.card-body p {
+	margin: 0;
+}

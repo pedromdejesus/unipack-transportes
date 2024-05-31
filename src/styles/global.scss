@@ -26,41 +26,32 @@ body {
 	height: 100vh;
 }
 
-a {
-	font-weight: 500;
-	color: #646cff;
-	text-decoration: inherit;
-}
-a:hover {
-	color: #535bf2;
+.layout {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
+.sub-title {
+	font-size: 34px;
+	color: $color-primary; 
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 15px;
 }
 
-button {
-	background-color: $color-secondary;
-}
-button:hover {
-	border-color: #646cff;
+.col-12 .row {
+	margin-bottom: 30px;
 }
 
-button:focus,
-button:focus-visible {
-	outline: 4px auto -webkit-focus-ring-color;
+.col-12 .row:last-child {
+	margin-bottom: 60px;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
-	}
-	button {
-		background-color: #f9f9f9;
-	}
+.col-12 .row p {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.secondary {
+	background-color: $background-secondary;
 }

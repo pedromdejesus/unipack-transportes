@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+
+.bg-footer, .footer {
+	height: 80px;
+	background-color: $color-primary;
+}
+
+.footer p {
+	margin: 0;
+	font-size: 26px;
+	font-weight: normal;
+	padding-right: 15px;
+	color: #FFFFFF;
+}

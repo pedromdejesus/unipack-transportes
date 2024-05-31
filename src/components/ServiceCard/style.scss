@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+.card-title {
+	font-size: 26px;
+	color: $color-primary; 
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.card .row {
+	margin-bottom: 15px;
+}
+
+.card .row:last-child {
+	margin-bottom: 15px;
+}

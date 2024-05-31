@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+.map {
+	width: 99%;
+	height: 750px;
+	background-color: $border-color;
+	border: 1px solid #FFFFFF;
+	margin: 0 0.5% 60px 0.5%;
+}
+
+.location .col-12 .row {
+	margin-bottom: 0;
+}

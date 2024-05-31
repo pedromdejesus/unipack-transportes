@@ -1,7 +1,62 @@
-@import 'bootstrap';
+@import '../../styles/colors';
 
-.header-wrap {
-	@extend .container-fluid, .bg-success;
+.bg-sub-header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 2;
+}
 
-	height: 15%;
+.bg-sub-header, .sub-header {
+	height: 60px;
+	background-color: $color-primary;
+}
+
+.sub-header p {
+	margin: 0;
+	font-size: 26px;
+	font-weight: normal;
+	padding-right: 15px;
+	color: #FFFFFF;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	z-index: 2;
+}
+
+.header .row {
+	height: 100px;
+}
+
+.header .col-12 .row p {
+	font-size: 42px;
+	color: $color-primary;
+	margin: 0;
+}
+
+.header .col-12 .row .col-2:hover {
+	cursor: pointer;
+}
+
+.header .col-12 .row .col-2:hover > p{
+	font-weight: bold;
+}
+
+.header .col-12 .row .col-2:active > p{
+	font-weight: bold;
+	color: $color-secondary;
+}
+
+img {
+	width: 100%;
+	height: 80px;
+	object-fit: cover;
 }
