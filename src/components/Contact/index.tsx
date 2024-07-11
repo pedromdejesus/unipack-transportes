@@ -10,13 +10,13 @@ const Contact: React.FC = () => {
 				<div className="col-12">
 					<Title title="Contato" />
 					<div className="row">
-						<div className="col-6">
+						<div className="col-lg-6 col-xs-12 form">
 							<h1 className="sub-title">Fale Conosco</h1>
 							<Form />
 						</div>
-						<div className="col-6">
+						<div className="col-lg-6 col-xs-12">
 							<div className="row">
-								<div className="col-6">
+								<div className="col-lg-6 col-xs-12">
 									<h1 className="sub-title">
 										Telefone e WhatsApp
 									</h1>
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
 										</div>
 									</div>
 								</div>
-								<div className="col-6">
+								<div className="col-lg-6 col-xs-12">
 									<h1 className="sub-title">
 										Horário de Atendimento
 									</h1>

@@ -1,62 +1,65 @@
 @import '../../styles/colors';
 
-.bg-sub-header {
-	width: 100%;
+.position-fixed{
 	position: fixed;
 	top: 0px;
 	left: 0;
 	z-index: 2;
 }
 
+.bg-sub-header {
+	width: 100%;
+}
+
 .bg-sub-header, .sub-header {
-	height: 60px;
 	background-color: $color-primary;
+	display: flex;
+	align-items: center;
 }
 
 .sub-header p {
 	margin: 0;
-	font-size: 26px;
+	font-size: 13px;
 	font-weight: normal;
-	padding-right: 15px;
+	padding-right: 10px;
 	color: #FFFFFF;
 }
 
 .header {
 	width: 100%;
-	height: 100px;
 	background-color: #FFFFFF;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
-	position: fixed;
-	top: 60px;
-	left: 0;
-	z-index: 2;
 }
 
-.header .row {
-	height: 100px;
+.header .col-12 .row {
+	margin-bottom: 0;
+}
+
+.header .col-12 .row:last-child {
+	margin-bottom: 0;
 }
 
 .header .col-12 .row p {
-	font-size: 42px;
+	font-size: 21px;
 	color: $color-primary;
 	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-.header .col-12 .row .col-2:hover {
+.header .col-12 .row .col-lg-2:hover {
 	cursor: pointer;
 }
 
-.header .col-12 .row .col-2:hover > p{
+.header .col-12 .row .col-lg-2:hover > p{
 	font-weight: bold;
 }
 
-.header .col-12 .row .col-2:active > p{
+.header .col-12 .row .col-lg-2:active > p{
 	font-weight: bold;
 	color: $color-secondary;
 }
 
 img {
 	width: 100%;
-	height: 80px;
-	object-fit: cover;
 }

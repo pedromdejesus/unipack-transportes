@@ -7,6 +7,31 @@
 	padding: 0;
 }
 
-.about .col-12 .row .col-3 div, .about .col-12 .row .col-3 .aboutImg {
+.about .col-12 .row .col-lg-3 div {
 	height: 100%;
+}
+
+.aboutImg {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+	.aboutImg {
+		padding-top: 15px;
+	}
+
+	.values, .objectives {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 992px) {
+	.aboutImg {
+		padding-top: 15px;
+	}
+
+	.values, .objectives {
+		margin-top: 15px;
+	}
 }

@@ -4,14 +4,14 @@ const Parallax: React.FC = () => {
 	function nav(id: string) {
 		const element = document.getElementById(id);
 		if(element) {
-			window.scrollTo(0, element.offsetTop - 160);
+			window.scrollTo(0, element.offsetTop - 90);
 		}
 	}
 
 	return (
 		<div className="bg-parallax">
 			<div className="parallax">
-				<p className="layout d-flex justify-content-end align-items-center">
+				<p className="layout d-flex justify-content-center align-items-center">
 					<button onClick={() => nav('contact')} className="btn">
 						<p>FAÇA UM ORÇAMENTO</p>
 					</button>

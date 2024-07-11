@@ -11,7 +11,7 @@ const About: React.FC = () => {
 				<div className="col-12">
 					<Title title="Sobre" />
 					<div className="row">
-						<div className="col-6">
+						<div className="col-lg-6 col-sm-12 col-xs-12">
 							<h1 className="sub-title">Quem somos nós</h1>
 							<p>
 								A UNIPACK é uma empresa com longa experiência no
@@ -30,7 +30,7 @@ const About: React.FC = () => {
 								particularidades de cada um.
 							</p>
 						</div>
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<div>
 								<img
 									className="aboutImg"
@@ -39,7 +39,7 @@ const About: React.FC = () => {
 								/>
 							</div>
 						</div>
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<div>
 								<img
 									className="aboutImg"
@@ -50,7 +50,7 @@ const About: React.FC = () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12 values">
 							<h1 className="sub-title">Valores</h1>
 							<p>Relações solidárias </p>
 							<p>Honestidade, confiança e satisfação </p>
@@ -61,7 +61,7 @@ const About: React.FC = () => {
 							</p>
 							<p>Honrar o compromisso. </p>
 						</div>
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<div>
 								<img
 									className="aboutImg"
@@ -70,7 +70,7 @@ const About: React.FC = () => {
 								/>
 							</div>
 						</div>
-						<div className="col-6">
+						<div className="col-lg-6 col-xs-12 objectives">
 							<h1 className="sub-title">Objetivos</h1>
 							<p>
 								Ser reconhecida no mercado pela excelência no
@@ -99,7 +99,6 @@ const About: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-6" />
 			</div>
 		</div>
 	);

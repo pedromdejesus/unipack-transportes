@@ -6,7 +6,7 @@ const Carousel: React.FC = () => {
 	function nav(id: string) {
 		const element = document.getElementById(id);
 		if(element) {
-			window.scrollTo(0, element.offsetTop - 160);
+			window.scrollTo(0, element.offsetTop - 80);
 		}
 	}
 
@@ -18,7 +18,7 @@ const Carousel: React.FC = () => {
 						<div className="carousel-item active">
 							<img
 								src={carouselImg1}
-								className="d-block w-100 carousel-img"
+								className="d-block carousel-img"
 								alt="Slide 1"
 							/>
 							<div className="bg-carousel-img" />
@@ -36,7 +36,7 @@ const Carousel: React.FC = () => {
 						<div className="carousel-item">
 							<img
 								src={carouselImg2}
-								className="d-block w-100 carousel-img"
+								className="d-block carousel-img"
 								alt="Slide 2"
 							/>
 							<div className="bg-carousel-img" />

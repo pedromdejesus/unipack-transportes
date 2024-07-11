@@ -13,28 +13,28 @@ const Customers: React.FC = () => {
 				<div className="col-12">
 					<Title title="Clientes" />
 					<div className="row">
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<CustomerCard
 								title="Purea"
 								imgSrc={imgPurea}
 								imgAlt="Logotipo da Purea"
 							/>
 						</div>
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<CustomerCard
 								title="Tupy"
 								imgSrc={imgTupy}
 								imgAlt="Logotipo da Tupy"
 							/>
 						</div>
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<CustomerCard
 								title="Opetra"
 								imgSrc={imgOpetra}
 								imgAlt="Logotipo da Opetra"
 							/>
 						</div>
-						<div className="col-3">
+						<div className="col-lg-3 col-sm-6 col-xs-12">
 							<CustomerCard
 								title="Damarfe"
 								imgSrc={imgDamarfe}

@@ -5,7 +5,7 @@ const Form: React.FC = () => {
 	return (
 		<form>
 			<div className="row">
-				<div className="col-6">
+				<div className="col-lg-6 col-sm-12 col-xs-12">
 					<div className="form-group">
 						<input
 							type="text"
@@ -15,7 +15,7 @@ const Form: React.FC = () => {
 						/>
 					</div>
 				</div>
-				<div className="col-6">
+				<div className="col-lg-6 col-sm-12 col-xs-12">
 					<div className="form-group">
 						<input
 							type="text"
@@ -27,7 +27,7 @@ const Form: React.FC = () => {
 				</div>
 			</div>
 			<div className="row">
-				<div className="col-6">
+				<div className="col-lg-6 col-sm-12 col-xs-12">
 					<div className="form-group">
 						<input
 							type="text"
@@ -37,7 +37,7 @@ const Form: React.FC = () => {
 						/>
 					</div>
 				</div>
-				<div className="col-6">
+				<div className="col-lg-6 col-sm-12 col-xs-12">
 					<div className="form-group">
 						<input
 							type="text"
@@ -49,7 +49,7 @@ const Form: React.FC = () => {
 				</div>
 			</div>
 			<div className="row">
-				<div className="col-6">
+				<div className="col-lg-6 col-sm-12 col-xs-12">
 					<div className="form-group">
 						<input
 							type="text"
@@ -59,7 +59,7 @@ const Form: React.FC = () => {
 						/>
 					</div>
 				</div>
-				<div className="col-6">
+				<div className="col-lg-6 col-sm-12 col-xs-12">
 					<div className="form-group">
 						<input
 							type="text"
@@ -81,7 +81,7 @@ const Form: React.FC = () => {
 				</div>
 			</div>
 			<div className="row">
-				<div className="col-6">
+				<div className="col-lg-6 col-xs-12">
 					<button type="submit" className="btn color">
 						<p>Enviar</p>
 					</button>

@@ -1,14 +1,47 @@
 @import '../../styles/colors';
 
 .bg-footer, .footer {
-	height: 80px;
+	width: 100%;
 	background-color: $color-primary;
+}
+
+.left-footer {
+	display: flex;
+	align-items: center;
+}
+
+.right-footer {
+	display: flex;
+	justify-content: end;
+	align-items: center;
 }
 
 .footer p {
 	margin: 0;
-	font-size: 26px;
+	font-size: 13px;
 	font-weight: normal;
-	padding-right: 15px;
+	padding: 10px 0 10px 0;
 	color: #FFFFFF;
+}
+
+.footer .secondary-text {
+	margin: 0;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 10px 0 10px 0;
+	color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+	.left-footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.right-footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
